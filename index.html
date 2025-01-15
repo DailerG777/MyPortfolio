@@ -201,12 +201,22 @@
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>  -->
-    <section class="contact" id="contact">
+<!--     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
         <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfQXh4zNwD29dhrtLXLhKLE2wJxWY3n7BD9xVmbxbcWC883Dw/viewform?usp=dialog"
             width="1100" height="600" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-    </section> 
+    </section>  -->
+    <section id="contacto" class="contact-section">
+        <h2>Contacto</h2>
+        <form id="contact-form" method="POST" action="/send_email">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="correo" placeholder="Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <div id="flash-messages" class="flash-messages"></div>
     
 
     <footer class="footer">
