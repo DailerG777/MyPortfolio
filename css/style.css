@@ -764,7 +764,7 @@ span {
 }
 
 /* Animacion de carga. */
-#contact-form button.loading {
+/*#contact-form button.loading {
     background-color: black;
     cursor: not-allowed;
     position: relative;
