@@ -59,7 +59,7 @@ html::-webkit-scrollbar-thumb {
     font-size: 3rem;
     color: var(--main-color);
     font-weight: 800;
-    /* cursor: pointer; */
+    cursor: pointer;
     transition: 0.5s ease;
 }
 
@@ -670,56 +670,7 @@ span {
     }
 }
 
-/* Contact section 
-.contact h2 {
-    margin-bottom: 3rem;
-    color: white;
-}
-
-.contact form {
-    max-width: 70rem;
-    margin: 1rem auto;
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-.contact form .input-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--bg-color);
-    border-radius: 0.8rem;
-    border: 2px solid var(--main-color);
-    margin: 1rem 0;
-    resize: none;
-}
-
-.contact form .btn {
-    margin-top: 2rem;
-}
- */
-/* Estilo general para la sección de contacto */
-.contact {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.contact iframe {
-    width: 100%; /* Esto asegura que el iframe se ajuste al ancho del contenedor */
-    height: 600px; /* Altura fija para el iframe, se puede ajustar según sea necesario */
-    border: none; /* Eliminar el borde */
-    max-width: 1100px; /* Establecer un tamaño máximo para evitar que se estire demasiado */
-    margin: 0 auto; /* Centrar el iframe
-} 
-/*.contact-section {
+.contact-section {
     padding: 3rem;
     background: black;
     color: var(--main-color);
@@ -764,7 +715,7 @@ span {
 }
 
 /* Animacion de carga. */
-/*#contact-form button.loading {
+#contact-form button.loading {
     background-color: black;
     cursor: not-allowed;
     position: relative;
@@ -783,19 +734,78 @@ span {
     height: 20px;
     animation: spin 1s linear infinite;
 }
- */
+
+/* Contact section */
+/* .contact h2 {
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 2px solid var(--main-color);
+    margin: 1rem 0;
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+} */
+
+/* Estilo general para la sección de contacto */
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact iframe {
+    width: 100%;
+    /* Esto asegura que el iframe se ajuste al ancho del contenedor */
+    height: 600px;
+    /* Altura fija para el iframe, se puede ajustar según sea necesario */
+    border: none;
+    /* Eliminar el borde */
+    max-width: 1100px;
+    /* Establecer un tamaño máximo para evitar que se estire demasiado */
+    margin: 0 auto;
+    /* Centrar el iframe */
+}
+
 /* Media queries para ajustar el tamaño en pantallas más pequeñas */
 @media (max-width: 768px) {
     .contact iframe {
-        height: 500px; /* Reducir la altura en pantallas más pequeñas */
+        height: 500px;
+        /* Reducir la altura en pantallas más pequeñas */
     }
 }
 
 @media (max-width: 480px) {
     .contact iframe {
-        height: 400px; /* Reducir aún más la altura en pantallas muy pequeñas */
+        height: 400px;
+        /* Reducir aún más la altura en pantallas muy pequeñas */
     }
 }
+
 
 /* Footer section*/
 .footer {
