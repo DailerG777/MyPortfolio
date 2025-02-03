@@ -157,12 +157,12 @@ span {
 .home-img {
     border-radius: 50%;
 }
-
-
-
-.home-img img:hover {
-    transform: scale(0.01);
-    filter: drop-shadow(0 0 25px var(--main-color));
+.home-img img {
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
 }
 
 .home-content p {
